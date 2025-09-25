@@ -1,0 +1,9 @@
+{
+    "name": "EClone.Editor",
+    "rootNamespace": "EClone.Editor",
+    "references": [
+        "EClone.Runtime"
+    ],
+    "includePlatforms": ["Editor"],
+    "autoReferenced": true
+}

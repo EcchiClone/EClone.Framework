@@ -1,0 +1,10 @@
+{
+  "name": "com.eclone.framework",
+  "version": "0.1.0",
+  "displayName": "EClone Framework",
+  "description": "Common managers and utilities for EClone's Unity projects.\nEClone의 Unity 프로젝트를 위한 공통 매니저 및 유틸리티입니다.",
+  "unity": "6000.0",
+  "author": {
+    "name": "EClone"
+  }
+}
