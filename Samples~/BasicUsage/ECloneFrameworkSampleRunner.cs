@@ -1,7 +1,7 @@
 using UnityEngine;
 using EClone.Core;
 
-public class SampleRunner : MonoBehaviour
+public class ECloneFrameworkSampleRunner : MonoBehaviour
 {
     void Start()
     {
