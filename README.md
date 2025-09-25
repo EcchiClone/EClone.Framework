@@ -7,7 +7,7 @@ EClone Framework는 Unity 프로젝트에서 공통적으로 사용할 매니저
 
 ## 설치
 Unity Package Manager에서 Git URL 추가:
-```https://github.com/EcchiClone/EClone.Framework.git#0.1.0```
+```https://github.com/EcchiClone/EClone.Framework.git```
 
 
 ## 문서
