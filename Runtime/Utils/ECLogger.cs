@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace EClone.Utils
 {
-    public static class Logger
+    public static class ECLogger
     {
         public static void Log(string msg)
         {

@@ -5,6 +5,6 @@ public class ECloneFrameworkSampleRunner : MonoBehaviour
 {
     void Start()
     {
-        GameManager.Instance.Init();
+        ECGameManager.Instance.Init();
     }
 }

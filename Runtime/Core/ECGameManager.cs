@@ -3,17 +3,17 @@ using EClone.Utils;
 
 namespace EClone.Core
 {
-    public class GameManager : MonoBehaviour
+    public class ECGameManager : MonoBehaviour
     {
-        private static GameManager _instance;
-        public static GameManager Instance
+        private static ECGameManager _instance;
+        public static ECGameManager Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    var go = new GameObject("GameManager");
-                    _instance = go.AddComponent<GameManager>();
+                    var go = new GameObject("ECGameManager");
+                    _instance = go.AddComponent<ECGameManager>();
                     DontDestroyOnLoad(go);
                 }
                 return _instance;
@@ -22,7 +22,7 @@ namespace EClone.Core
 
         public void Init()
         {
-            EClone.Utils.Logger.Log("GameManager initialized.");
+            EClone.Utils.ECLogger.Log("ECGameManager initialized.");
         }
     }
 }
